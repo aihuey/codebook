@@ -1,7 +1,7 @@
 # codebook
 
 ## DeepSeek api in Claude Code
-'''json
+```json
 "claudeCode.environmentVariables": [
         {
         "name": "ANTHROPIC_BASE_URL",
@@ -36,4 +36,4 @@
             "value": "max"
         }
     ]
-'''
+```
