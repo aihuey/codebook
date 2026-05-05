@@ -37,3 +37,34 @@
         }
     ]
 ```
+
+
+## Mimo api in Claude Code
+```json
+{
+  "claudeCode.preferredLocation": "panel",
+  "claudeCode.selectedModel": "mimo-v2.5-pro",
+  "claudeCode.environmentVariables": [
+    {
+      "name": "ANTHROPIC_BASE_URL",
+      "value": "BASE_URL"
+    },
+    {
+      "name": "ANTHROPIC_AUTH_TOKEN",
+      "value": "MIMO_API_KEY"
+    },
+    {
+      "name": "ANTHROPIC_DEFAULT_SONNET_MODEL",
+      "value": "mimo-v2.5-pro"
+    },
+    {
+      "name": "ANTHROPIC_DEFAULT_OPUS_MODEL",
+      "value": "mimo-v2.5-pro"
+    },
+    {
+      "name": "ANTHROPIC_DEFAULT_HAIKU_MODEL",
+      "value": "mimo-v2.5-pro"
+    }
+  ]
+}
+```
